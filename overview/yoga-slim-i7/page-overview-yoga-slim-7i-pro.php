@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="mobile-web-app-capable" content="yes">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<?php wp_head(); ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/landing-pages/css/aos.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/landing-pages/css/bootstrap.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/landing-pages/css/styles.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/landing-pages/css/responsive.css">
-    <?php wp_head(); ?>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYPRDYXYKY"></script>
 <script>
