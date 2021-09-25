@@ -8,13 +8,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="mobile-web-app-capable" content="yes">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<?php echo get_template_directory_uri(); ?>/src/landing-pages/aos.css
-<?php echo get_template_directory_uri(); ?>/src/landing-pages/bootstrap.min.css
-<?php echo get_template_directory_uri(); ?>/src/landing-pages/btn-animate.css
-<?php echo get_template_directory_uri(); ?>/src/landing-pages/bg-body.css
-<?php echo get_template_directory_uri(); ?>/src/landing-pages/font-awesome.css
-<?php echo get_template_directory_uri(); ?>/src/landing-pages/styles.css
-<?php echo get_template_directory_uri(); ?>/src/landing-pages/responsive.css
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/landing-pages/css/aos.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/landing-pages/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/landing-pages/css/styles.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/landing-pages/css/responsive.css">
     <?php wp_head(); ?>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYPRDYXYKY"></script>
@@ -149,11 +146,8 @@
 
 <!-- end content -->
  <?php wp_footer() ?>
-
-
-    <?php echo get_template_directory_uri(); ?>/src/landing-pages/https://use.fontawesome.com/386bd41aef.js 
-    <?php echo get_template_directory_uri(); ?>/src/landing-pages/https://code.jquery.com/jquery-1.11.3.min.js
-    <?php echo get_template_directory_uri(); ?>/src/landing-pages/aos.js
-    <?php echo get_template_directory_uri(); ?>/src/landing-pages/bootstrap.min.js
+    
+    <script src="<?php echo get_template_directory_uri(); ?>/src/landing-pages/js/aos.js "></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/src/landing-pages/js/bootstrap.min.js "></script>
 </body>
 </html>
