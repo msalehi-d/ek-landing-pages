@@ -149,5 +149,10 @@
     
     <script src="<?php echo get_template_directory_uri(); ?>/src/landing-pages/js/aos.js "></script>
     <script src="<?php echo get_template_directory_uri(); ?>/src/landing-pages/js/bootstrap.min.js "></script>
+    <script>
+        $(function() {
+            AOS.init();
+        });
+    </script>
 </body>
 </html>
