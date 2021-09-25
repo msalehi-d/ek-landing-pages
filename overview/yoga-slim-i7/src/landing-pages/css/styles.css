@@ -471,6 +471,7 @@ button div {
 .m-text-right {
     margin-right: 10px !important;
 }
-.bg-body{
+
+.bg-body {
     direction: ltr;
 }
