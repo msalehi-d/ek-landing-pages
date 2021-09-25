@@ -33,7 +33,7 @@
                 <div class="box-landing">
                     <div class="row">
                         <div class="col-lg-6 box-landing-img">
-                            <img src="dist/img/1.png" class="img-fluid-custom" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/src/landing-pages/img/1.png" class="img-fluid-custom" alt="">
                         </div>
                         <div class="col-lg-6 box-landing-title">
 
@@ -67,7 +67,7 @@
                             </div>
                             <div class="col-lg-6" data-aos="fade-left">
                                 <div class="picture-cam">
-                                    <img src="dist/img/2.png" class="img-custom-cam" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/landing-pages/img/2.png" class="img-custom-cam" alt="">
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                     <div class="main-content">
                         <div class="row">
                             <div class="col-lg-6 picture-3" data-aos="fade-right" data-aos-delay="150">
-                                <img src="dist/img/3.png" class="img-custom-cam" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/src/landing-pages/img/3.png" class="img-custom-cam" alt="">
                             </div>
                             <div class="col-lg-6" data-aos="fade-left">
                                 <div class="">
@@ -95,7 +95,7 @@
                                 </div>
                                 <div class="col-lg-6" data-aos="fade-left">
                                     <div class="picture-5">
-                                        <img src="dist/img/4.png" class="picture-55" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/src/landing-pages/img/4.png" class="picture-55" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                             </div>
                             <div class=" row ">
                                 <div class="col text-center " data-aos="fade-up" data-aos-delay="700">
-                                    <img src="dist/img/5.png " class="picture-4" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/src/landing-pages/img/5.png " class="picture-4" alt="">
                                 </div>
                             </div>
                         </div>
