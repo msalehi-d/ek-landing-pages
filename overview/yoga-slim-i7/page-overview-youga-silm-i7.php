@@ -1,5 +1,3 @@
-
- 
 <!doctype html>
 <html lang="fa" dir="rtl">
 <head>
@@ -44,7 +42,7 @@
                                 عمل می‌کنند و لنوو هم با لپ‌تاپ Yoga Slim 7i Pro به قول خود در قبال پسوند «Pro» عمل کرده است. در ادامه با بررسی لپ تاپ لنوو Yoga Slim 7i Pro همراه اعتبارکالا باشید.</p>
 
                             <section class="container">
-                                <button data-hover="خرید"><div>خرید این محصول</div></button>
+                                <button onclick="window.open('https://etebarkala.com/products/lenovo-yoga-slim-7i-pro-i7-11370h-16gb-1tssd-2gb-450/','_blank')" data-hover="خرید"><div>خرید این محصول</div></button>
                             </section>
                         </div>
                         <div class="mouse_scroll">
@@ -135,7 +133,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button data-hover="خرید " class="button-price "><div>خرید این محصول</div></button>
+                        <button onclick="window.open('https://etebarkala.com/products/lenovo-yoga-slim-7i-pro-i7-11370h-16gb-1tssd-2gb-450/','_blank')" data-hover="خرید " class="button-price "><div>خرید این محصول</div></button>
                     </div>
                 </div>
             </div>
