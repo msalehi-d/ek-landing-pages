@@ -679,6 +679,9 @@ body {
 }
 
 @media screen and (max-width:991px) {
+    .text-1 {
+        margin-right: 0;
+    }
     .img-box2 {
         text-align: center;
         display: flex;
